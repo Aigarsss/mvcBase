@@ -1,8 +1,4 @@
 <?php require APPROOT . '/views/inc/header.php'; ?>
 <h1><?= $data['title'] ;?></h1>
-<ul>
-    <?php foreach($data['posts'] as $post) : ?>
-        <li><?= $post->title; ?></li>
-    <?php endforeach; ?>
-</ul>
+<p>This is the traversy mvc php framework</p>
 <?php require APPROOT . '/views/inc/footer.php'; ?>
